@@ -1,1 +1,145 @@
-[{"id":"d020fe8d-43da-4fc9-90f6-934e228db249","name":"Zamna","address":"Magusa","firm":1,"firm__name":"La Nouba","is_active":true,"eventlanguage":[{"id":2,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","language":2,"language__name":"EN","description":"Event Language Description","rules":"Event Language Rules","is_active":true},{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","language":1,"language__name":"TR","description":"Etkinlik Dil Açıklama","rules":"Etkinlik Dil Kurallar","is_active":true}],"eventdate":[{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","start_date":"2025-05-10T20:00:00+03:00","end_date":"2025-05-11T05:00:00+03:00","is_active":true}],"eventimage":[{"id":3,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","uploaded_image":{"id":3,"image":"http://127.0.0.1:8000/media/files/image/girnebel.jpeg","is_active":true},"is_cover_image":false,"is_plan_image":false},{"id":2,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","uploaded_image":{"id":2,"image":"http://127.0.0.1:8000/media/files/image/luxia.jpeg","is_active":true},"is_cover_image":false,"is_plan_image":true},{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","uploaded_image":{"id":1,"image":"http://127.0.0.1:8000/media/files/image/img-3784-67f41cba40407-900_675.jpg","is_active":true},"is_cover_image":true,"is_plan_image":false}],"eventphasetype":[{"id":2,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","name":"Backstage","is_active":true},{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","name":"Standard Area","is_active":true}],"eventphase":[{"id":"8f2d9eca-8e7a-4316-9c4b-349fbf51535a","event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","phase_type":1,"phase_type__name":"Standard Area","name":"Early Bird","description":"Early Bird Description","price":"1100.00","currency":1,"currency__name":"TRY","start_date":"2025-04-18T16:30:00+03:00","end_date":"2025-04-25T23:59:00+03:00","qty_limit":250,"qty_available":250,"is_open":true,"is_sold":false,"is_active":true,"order":1},{"id":"35c6d2e6-53b4-4dec-863c-df9f6a0764c0","event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","phase_type":1,"phase_type__name":"Standard Area","name":"1st Phase","description":"Description","price":"1250.00","currency":1,"currency__name":"TRY","start_date":"2025-04-18T16:30:00+03:00","end_date":"2025-04-25T23:59:00+03:00","qty_limit":220,"qty_available":220,"is_open":true,"is_sold":false,"is_active":true,"order":2}],"eventpromo":[{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","public_relations":1,"public_relations__code":"Test PR","is_active":true}]}]
+[
+  {
+    "id": "d020fe8d-43da-4fc9-90f6-934e228db249",
+    "name": "Zamna",
+    "address": "Magusa",
+    "firm": 1,
+    "firm__name": "La Nouba",
+    "is_active": true,
+    "eventlanguage": [
+      {
+        "id": 2,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "language": 2,
+        "language__name": "EN",
+        "description": "Event Language Description",
+        "rules": "Event Language Rules",
+        "is_active": true
+      },
+      {
+        "id": 1,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "language": 1,
+        "language__name": "TR",
+        "description": "Etkinlik Dil Açıklama",
+        "rules": "Etkinlik Dil Kurallar",
+        "is_active": true
+      }
+    ],
+    "eventdate": [
+      {
+        "id": 1,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "start_date": "2025-05-10T20:00:00+03:00",
+        "end_date": "2025-05-11T05:00:00+03:00",
+        "is_active": true
+      }
+    ],
+    "eventimage": [
+      {
+        "id": 3,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "uploaded_image": {
+          "id": 3,
+          "image": "http://127.0.0.1:8000/media/files/image/girnebel.jpeg",
+          "is_active": true
+        },
+        "is_cover_image": false,
+        "is_plan_image": false
+      },
+      {
+        "id": 2,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "uploaded_image": {
+          "id": 2,
+          "image": "http://127.0.0.1:8000/media/files/image/luxia.jpeg",
+          "is_active": true
+        },
+        "is_cover_image": false,
+        "is_plan_image": true
+      },
+      {
+        "id": 1,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "uploaded_image": {
+          "id": 1,
+          "image": "http://127.0.0.1:8000/media/files/image/img-3784-67f41cba40407-900_675.jpg",
+          "is_active": true
+        },
+        "is_cover_image": true,
+        "is_plan_image": false
+      }
+    ],
+    "eventphasetype": [
+      {
+        "id": 2,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "name": "Backstage",
+        "is_active": true
+      },
+      {
+        "id": 1,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "name": "Standard Area",
+        "is_active": true
+      }
+    ],
+    "eventphase": [
+      {
+        "id": "8f2d9eca-8e7a-4316-9c4b-349fbf51535a",
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "phase_type": 1,
+        "phase_type__name": "Standard Area",
+        "name": "Early Bird",
+        "description": "Early Bird Description",
+        "price": "1100.00",
+        "currency": 1,
+        "currency__name": "TRY",
+        "start_date": "2025-04-18T16:30:00+03:00",
+        "end_date": "2025-04-25T23:59:00+03:00",
+        "qty_limit": 250,
+        "qty_available": 250,
+        "is_open": true,
+        "is_sold": false,
+        "is_active": true,
+        "order": 1
+      },
+      {
+        "id": "35c6d2e6-53b4-4dec-863c-df9f6a0764c0",
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "phase_type": 1,
+        "phase_type__name": "Standard Area",
+        "name": "1st Phase",
+        "description": "Description",
+        "price": "1250.00",
+        "currency": 1,
+        "currency__name": "TRY",
+        "start_date": "2025-04-18T16:30:00+03:00",
+        "end_date": "2025-04-25T23:59:00+03:00",
+        "qty_limit": 220,
+        "qty_available": 220,
+        "is_open": true,
+        "is_sold": false,
+        "is_active": true,
+        "order": 2
+      }
+    ],
+    "eventpromo": [
+      {
+        "id": 1,
+        "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+        "event__name": "Zamna",
+        "public_relations": 1,
+        "public_relations__code": "Test PR",
+        "is_active": true
+      }
+    ]
+  }
+]

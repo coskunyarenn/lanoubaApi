@@ -1,1 +1,22 @@
-[{"id":2,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","language":2,"language__name":"EN","description":"Event Language Description","rules":"Event Language Rules","is_active":true},{"id":1,"event":"d020fe8d-43da-4fc9-90f6-934e228db249","event__name":"Zamna","language":1,"language__name":"TR","description":"Etkinlik Dil Açıklama","rules":"Etkinlik Dil Kurallar","is_active":true}]
+[
+  {
+    "id": 2,
+    "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+    "event__name": "Zamna",
+    "language": 2,
+    "language__name": "EN",
+    "description": "Event Language Description",
+    "rules": "Event Language Rules",
+    "is_active": true
+  },
+  {
+    "id": 1,
+    "event": "d020fe8d-43da-4fc9-90f6-934e228db249",
+    "event__name": "Zamna",
+    "language": 1,
+    "language__name": "TR",
+    "description": "Etkinlik Dil Açıklama",
+    "rules": "Etkinlik Dil Kurallar",
+    "is_active": true
+  }
+]
